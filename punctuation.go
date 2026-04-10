@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"regexp"
 )
 
@@ -14,8 +13,4 @@ func fixPunctuation(s string) string {
 
 	return s
 
-}
-
-func main() {
-	fmt.Println(fixPunctuation("I was sitting over there ,and ...then BAMM !!"))
 }

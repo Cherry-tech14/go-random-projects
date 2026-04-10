@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
@@ -32,10 +31,5 @@ func convertBases(hex string) string {
 		}
 	}
 	return strings.Join(word, " ")
-
-}
-
-func main() {
-	fmt.Println(convertBases("FF (hex) files were added, and 10 (bin) years"))
 
 }

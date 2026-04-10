@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -26,8 +25,4 @@ func upperCase(s string) string {
 	}
 	return strings.Join(word, " ")
 
-}
-
-func main() {
-	fmt.Println(upperCase("Ready set go (up) i should stop SHOUTING (low) Welcome to the Brooklyn BRIDGE (cap) "))
 }

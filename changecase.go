@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
@@ -37,8 +36,4 @@ func changeCase(w string) string {
 		}
 	}
 	return strings.Join(s, " ")
-}
-
-func main() {
-	fmt.Println(changeCase("this is so exciting (up, 2)"))
 }
